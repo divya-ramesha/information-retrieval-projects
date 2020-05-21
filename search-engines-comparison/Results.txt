@@ -1,0 +1,10 @@
+Search Engine: Yahoo
+Average Overlap Percentage: 29.3%
+Average Spearman's Rank Coefficient: -10.41
+
+* After running 100 queries in our dataset on Yahoo search engine we got 29.3% of overlapping results with reference to Google search engine. 
+* With 29.3% of identical results (which is less than 50% overlap), the spearman's rank correlation coefficient is -10.41 for the given dataset. 
+* Spearman's rank correlation coefficient is low when observations have dissimilar rank.
+* So, from this we can deduce that the positions of these identical results in result list produced a negative spearman coefficient suggesting that the overlapping results are not correlated. 
+* Evidently, Yahoo and google search engines are using different weighting and ranking algorithms to produce results for given query.
+* Their algorithms consider numerous ranking features with different score for each feature.
